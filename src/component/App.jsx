@@ -6,19 +6,19 @@ import itemData from "../data/items.json";
 import SearchResult from "./app/SearchResult";
 
 const App = () => {
-  const [searchText, setSearchText] = useState("");
+  const [query, setQuery] = useState([]);
   const [items, setItems] = useState(itemData);
 
   return (
     <div>
       <Header />
-      <SearchInput search={setSearchText} />
+      <SearchInput setQuery={setQuery} />
 
       <hr />
 
       <SearchResult
         items={items}
-        searchText={searchText} />
+        query={query} />
     </div>
   );
 }

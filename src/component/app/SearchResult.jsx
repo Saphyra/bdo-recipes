@@ -2,12 +2,9 @@ import React from "react";
 import SearchResultItem from "./search_result/SearchResultItem";
 import "./search_result.css";
 
-const SearchResult = ({ items, searchText }) => {
+const SearchResult = ({ items, query }) => {
     const matches = (item) => {
-        const words = searchText.toLowerCase().split(" ");
-        const names = item.name.toLowerCase().split(" ");
-
-        return names.some(name => words.some(word => name.includes(word)));
+        return query.length == 0 || query.some(word => item.name.toLowerCase().includes(word));
     }
 
     const getSeachResult = (matchedItems) => {

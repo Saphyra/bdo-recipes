@@ -1,13 +1,13 @@
 import React from "react";
 
-const SearchInput = ({ search }) => {
+const SearchInput = ({ setQuery }) => {
     return (
         <div className="search-container">
             <input
                 className="search-input"
                 type="text"
                 placeholder="What are you looking for?"
-                onChange={(e) => { search(e.target.value) }}
+                onChange={(e) => { setQuery(e.target.value.toLowerCase().split(" ")) }}
             />
         </div>
     );

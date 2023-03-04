@@ -9,6 +9,17 @@
         "price": {
             "general": 480,
             "marketplace": 2000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "All Accuracy +4"
+            ]
         }
     },
     "beer": {
@@ -21,6 +32,15 @@
         "price": {
             "general": 86,
             "marketplace": 3000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "extra": [
+                "Worker Stamina Recovery +2"
+            ]
         }
     },
     "boiled-bird-eggs": {
@@ -33,6 +53,17 @@
         "price": {
             "general": 86,
             "marketplace": 3050
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +1"
+            ]
         }
     },
     "exotic-herbal-wine": {
@@ -45,6 +76,17 @@
         "price": {
             "general": 79,
             "marketplace": 2800
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Fishing Speed +1"
+            ]
         }
     },
     "fig-pie": {
@@ -57,6 +99,17 @@
         "price": {
             "general": 254,
             "marketplace": 7400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Gathering Resource Gain Chance +3%"
+            ]
         }
     },
     "fried-fish": {
@@ -69,6 +122,17 @@
         "price": {
             "general": 105,
             "marketplace": 480
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +1"
+            ]
         }
     },
     "fried-vegetables": {
@@ -81,6 +145,17 @@
         "price": {
             "general": 227,
             "marketplace": 975
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "HP Recovery +2"
+            ]
         }
     },
     "fruit-juice": {
@@ -93,6 +168,17 @@
         "price": {
             "general": 142,
             "marketplace": 585
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Max MP(EP)/WP/SP +30"
+            ]
         }
     },
     "grain-soup": {
@@ -105,6 +191,17 @@
         "price": {
             "general": 100,
             "marketplace": 414
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Gathering Speed +1"
+            ]
         }
     },
     "high-quality-carrot-juice": {
@@ -117,6 +214,17 @@
         "price": {
             "general": 100,
             "marketplace": 414
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 0,
+            "cooldown": 4,
+            "extra": [
+                "Recover Mount HP +600"
+            ]
         }
     },
     "seafood-mushroom-salad": {
@@ -129,6 +237,17 @@
         "price": {
             "general": 195,
             "marketplace": 1410
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +20 LT"
+            ]
         }
     },
     "smoked-fish-steak": {
@@ -141,6 +260,17 @@
         "price": {
             "general": 134,
             "marketplace": 4510
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Attack Speed +1"
+            ]
         }
     },
     "special-carrot-juice": {
@@ -153,6 +283,16 @@
         "price": {
             "general": 220,
             "marketplace": 905
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "cooldown": 4,
+            "extra": [
+                "Recover Mount HP +900"
+            ]
         }
     },
     "steamed-fish": {
@@ -165,6 +305,17 @@
         "price": {
             "general": 126,
             "marketplace": 520
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "All Accuracy +4"
+            ]
         }
     },
     "teff-bread": {
@@ -177,6 +328,17 @@
         "price": {
             "general": 89,
             "marketplace": 3510
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Cooking / Alchemy Time -0.3 sec"
+            ]
         }
     },
     "five-grain-chicken-porridge": {
@@ -189,6 +351,17 @@
         "price": {
             "general": 121,
             "marketplace": 497
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Amity +5%"
+            ]
         }
     },
     "citron-juice": {
@@ -201,6 +374,18 @@
         "price": {
             "general": 88,
             "marketplace": 2470
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Fishing Speed +1",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "citron-candy": {
@@ -213,6 +398,18 @@
         "price": {
             "general": 86,
             "marketplace": 3050
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Fishing EXP +8%",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "date-palm-wine": {
@@ -225,6 +422,17 @@
         "price": {
             "general": 80,
             "marketplace": 2180
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All Evasion +4"
+            ]
         }
     },
     "fish-fillet-chips": {
@@ -237,6 +445,15 @@
         "price": {
             "general": 304,
             "marketplace": 3780
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "extra": [
+                "Worker Stamina Recovery +5"
+            ]
         }
     },
     "fish-soup": {
@@ -249,6 +466,17 @@
         "price": {
             "general": 162,
             "marketplace": 1680
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Critical Hit +1"
+            ]
         }
     },
     "fruit-and-vegetable-salad": {
@@ -261,6 +489,17 @@
         "price": {
             "general": 302,
             "marketplace": 1380
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "MP(EP)/WP/SP Recovery +5"
+            ]
         }
     },
     "fruit-wine": {
@@ -273,6 +512,17 @@
         "price": {
             "general": 334,
             "marketplace": 3090
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Fishing Speed +1"
+            ]
         }
     },
     "grilled-bird-meat": {
@@ -285,6 +535,15 @@
         "price": {
             "general": 160,
             "marketplace": 915
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "extra": [
+                "Worker Stamina Recovery +3"
+            ]
         }
     },
     "honey-wine": {
@@ -297,6 +556,17 @@
         "price": {
             "general": 325,
             "marketplace": 1530
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "All Damage Reduction +2"
+            ]
         }
     },
     "omelet": {
@@ -309,6 +579,17 @@
         "price": {
             "general": 202,
             "marketplace": 2270
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "All Damage Reduction +2"
+            ]
         }
     },
     "pickled-fish": {
@@ -321,6 +602,17 @@
         "price": {
             "general": 154,
             "marketplace": 715
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Amity +5%"
+            ]
         }
     },
     "pistachio-fried-rice": {
@@ -333,6 +625,17 @@
         "price": {
             "general": 334,
             "marketplace": 1530
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Processing Success Rate +3%"
+            ]
         }
     },
     "seafood-grilled-with-butter": {
@@ -345,6 +648,17 @@
         "price": {
             "general": 242,
             "marketplace": 1440
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Attack Speed +1"
+            ]
         }
     },
     "seafood-pasta": {
@@ -357,6 +671,17 @@
         "price": {
             "general": 374,
             "marketplace": 2640
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Casting Speed +1"
+            ]
         }
     },
     "steamed-bird": {
@@ -369,6 +694,17 @@
         "price": {
             "general": 615,
             "marketplace": 2150
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Combat XP +3%"
+            ]
         }
     },
     "stir-fried-vegetables": {
@@ -381,6 +717,17 @@
         "price": {
             "general": 214,
             "marketplace": 7650
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Jump Height Up"
+            ]
         }
     },
     "tea-with-fine-scent": {
@@ -393,6 +740,17 @@
         "price": {
             "general": 507,
             "marketplace": 9150
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Max MP(EP)/WP/SP +50"
+            ]
         }
     },
     "delotia-juice": {
@@ -405,6 +763,18 @@
         "price": {
             "general": 380,
             "marketplace": 9250
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Extra AP Against Monsters +5",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "citron-cider": {
@@ -417,6 +787,18 @@
         "price": {
             "general": 105,
             "marketplace": 2940
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +1",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "well-brewed-mesima-tea": {
@@ -429,6 +811,18 @@
         "price": {
             "general": 161,
             "marketplace": 520
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 600,
+            "cooldown": 300,
+            "extra": [
+                "Immune to Frostbite",
+                "Supplied Rations on Ship +240"
+            ]
         }
     },
     "mesima-rice-wine": {
@@ -441,6 +835,18 @@
         "price": {
             "general": 220,
             "marketplace": 6150
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +80 LT",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "aloe-yogurt": {
@@ -453,6 +859,17 @@
         "price": {
             "general": 218,
             "marketplace": 4350
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Fishing Speed +1"
+            ]
         }
     },
     "couscous": {
@@ -465,6 +882,17 @@
         "price": {
             "general": 1006,
             "marketplace": 27300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 6600,
+            "cooldown": 1800,
+            "extra": [
+                "Processing Success Rate +5%"
+            ]
         }
     },
     "desert-dumpling": {
@@ -477,6 +905,18 @@
         "price": {
             "general": 629,
             "marketplace": 3940
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Max Stamina +200",
+                "Supplied Rations on Ship +240"
+            ]
         }
     },
     "fish-fillet-salad": {
@@ -489,6 +929,17 @@
         "price": {
             "general": 320,
             "marketplace": 12700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +1"
+            ]
         }
     },
     "freekeh-snake-stew": {
@@ -501,6 +952,15 @@
         "price": {
             "general": 630,
             "marketplace": 39900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "extra": [
+                "Worker Stamina Recovery +5"
+            ]
         }
     },
     "fried-bird": {
@@ -513,6 +973,17 @@
         "price": {
             "general": 719,
             "marketplace": 13900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "HP Recovery +5"
+            ]
         }
     },
     "fruit-pie": {
@@ -525,6 +996,18 @@
         "price": {
             "general": 357,
             "marketplace": 3610
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Max MP(EP)/WP/SP +70",
+                "Casting Speed +1"
+            ]
         }
     },
     "fruit-pudding": {
@@ -537,6 +1020,17 @@
         "price": {
             "general": 267,
             "marketplace": 5050
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "MP(EP)/WP/SP Recovery +2"
+            ]
         }
     },
     "meat-pie": {
@@ -549,6 +1043,17 @@
         "price": {
             "general": 345,
             "marketplace": 22000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Max Stamina +200"
+            ]
         }
     },
     "meat-stew": {
@@ -561,6 +1066,17 @@
         "price": {
             "general": 374,
             "marketplace": 8700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Max HP +30"
+            ]
         }
     },
     "pickled-vegetables": {
@@ -573,6 +1089,17 @@
         "price": {
             "general": 422,
             "marketplace": 2030
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Gathering Speed +1"
+            ]
         }
     },
     "prawn-salad": {
@@ -585,6 +1112,18 @@
         "price": {
             "general": 2025,
             "marketplace": 7700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +40 LT",
+                "Knockback/Floating Resistance +10%"
+            ]
         }
     },
     "roast-marmot": {
@@ -597,6 +1136,17 @@
         "price": {
             "general": 800,
             "marketplace": 22800
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Chance to Gain Higher Grade Knowledge +2%"
+            ]
         }
     },
     "soft-bread": {
@@ -609,6 +1159,17 @@
         "price": {
             "general": 186,
             "marketplace": 18700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Max Stamina +100"
+            ]
         }
     },
     "steamed-prawn": {
@@ -621,6 +1182,18 @@
         "price": {
             "general": 1800,
             "marketplace": 22600
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +2",
+                "Grapple Resistance +10%"
+            ]
         }
     },
     "stir-fried-seafood": {
@@ -633,6 +1206,17 @@
         "price": {
             "general": 394,
             "marketplace": 2670
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Casting Speed +1"
+            ]
         }
     },
     "pickled-citron-and-onions": {
@@ -645,6 +1229,17 @@
         "price": {
             "general": 368,
             "marketplace": 5200
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "chanterelle-risotto": {
@@ -657,6 +1252,18 @@
         "price": {
             "general": 405,
             "marketplace": 11300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Processing EXP +8%",
+                "Supplied Rations on Ship +240"
+            ]
         }
     },
     "borscht": {
@@ -669,6 +1276,17 @@
         "price": {
             "general": 387,
             "marketplace": 15300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Max Energy +10"
+            ]
         }
     },
     "cheese-pie": {
@@ -681,6 +1299,15 @@
         "price": {
             "general": 458,
             "marketplace": 14000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "extra": [
+                "Worker Stamina Recovery +7"
+            ]
         }
     },
     "coconut-cocktail": {
@@ -693,6 +1320,17 @@
         "price": {
             "general": 532,
             "marketplace": 3680
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Auto-fishing Time -5%"
+            ]
         }
     },
     "coconut-fried-fish": {
@@ -705,6 +1343,18 @@
         "price": {
             "general": 1017,
             "marketplace": 8350
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +1",
+                "Casting Speed +1"
+            ]
         }
     },
     "coconut-pasta": {
@@ -717,6 +1367,17 @@
         "price": {
             "general": 1085,
             "marketplace": 19700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Hetstroke / Hypothermia Resistance +10%"
+            ]
         }
     },
     "grilled-sausage": {
@@ -729,6 +1390,17 @@
         "price": {
             "general": 480,
             "marketplace": 31300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +1"
+            ]
         }
     },
     "grilled-scorpion": {
@@ -741,6 +1413,17 @@
         "price": {
             "general": 634,
             "marketplace": 38500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Damage from Monsters -5%"
+            ]
         }
     },
     "lizard-kebab": {
@@ -753,6 +1436,17 @@
         "price": {
             "general": 830,
             "marketplace": 22700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Max Stamina +100"
+            ]
         }
     },
     "meat-pasta": {
@@ -765,6 +1459,17 @@
         "price": {
             "general": 501,
             "marketplace": 31400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +40 LT"
+            ]
         }
     },
     "meat-soup": {
@@ -777,6 +1482,17 @@
         "price": {
             "general": 432,
             "marketplace": 11000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Critical Hit +1"
+            ]
         }
     },
     "oatmeal": {
@@ -789,6 +1505,15 @@
         "price": {
             "general": 412,
             "marketplace": 16300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "extra": [
+                "Worker Stamina Recovery +5"
+            ]
         }
     },
     "pan-fried-oyster": {
@@ -801,6 +1526,19 @@
         "price": {
             "general": 1575,
             "marketplace": 33300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Attack Speed +2",
+                "Casting Speed +2",
+                "Stun/Stiffness/Freezing Resistance +10%"
+            ]
         }
     },
     "rb-mushroom-cheese-melt": {
@@ -813,6 +1551,17 @@
         "price": {
             "general": 1240,
             "marketplace": 33900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Back Attack Damage +5%"
+            ]
         }
     },
     "rb-mushroom-sandwich": {
@@ -825,6 +1574,18 @@
         "price": {
             "general": 1587,
             "marketplace": 33500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Max HP +150",
+                "Max Stamina +150"
+            ]
         }
     },
     "steak": {
@@ -837,6 +1598,17 @@
         "price": {
             "general": 726,
             "marketplace": 30500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "teff-sanswich": {
@@ -849,6 +1621,17 @@
         "price": {
             "general": 1587,
             "marketplace": 43100
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 6600,
+            "cooldown": 1800,
+            "extra": [
+                "Cooking / Alchemy Time -0.5 sec"
+            ]
         }
     },
     "chanterelle-stew": {
@@ -861,6 +1644,18 @@
         "price": {
             "general": 496,
             "marketplace": 19600
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +100",
+                "Max Stamina +80"
+            ]
         }
     },
     "fruit-sherbet": {
@@ -873,6 +1668,18 @@
         "price": {
             "general": 653,
             "marketplace": 18300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Chance to Gain Higher Grade Knowledge +2%",
+                "Supplied Rations on Ship +4000"
+            ]
         }
     },
     "chanterelle-and-potato-stew": {
@@ -885,6 +1692,18 @@
         "price": {
             "general": 845,
             "marketplace": 15100
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Max HP +100",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "mesima-chicken-soup": {
@@ -897,6 +1716,20 @@
         "price": {
             "general": 966,
             "marketplace": 21900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +2",
+                "Max Stamina +100",
+                "Strength EXP +10%",
+                "Supplied Rations on Ship +240"
+            ]
         }
     },
     "assorted-side-dishes": {
@@ -909,6 +1742,17 @@
         "price": {
             "general": 1015,
             "marketplace": 22600
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Life EXP +5%"
+            ]
         }
     },
     "frank-sandwich": {
@@ -921,6 +1765,18 @@
         "price": {
             "general": 800,
             "marketplace": 13400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Skill EXP +5%",
+                "Supplied Rations on Ship +240"
+            ]
         }
     },
     "delotia-milk-tea": {
@@ -933,6 +1789,19 @@
         "price": {
             "general": 325,
             "marketplace": 16500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Extra AP Against Monsters +3",
+                "All Accuracy +6",
+                "Supplied Rations on Ship +100"
+            ]
         }
     },
     "delotia-pudding": {
@@ -945,6 +1814,19 @@
         "price": {
             "general": 800,
             "marketplace": 31400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "All Damage Reduction +5",
+                "Damage from Monsters -5%",
+                "Supplied Rations on Ship +240"
+            ]
         }
     },
     "cheese-gratin": {
@@ -957,6 +1839,18 @@
         "price": {
             "general": 848,
             "marketplace": 28100
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Max HP +70",
+                "Attack Speed +1"
+            ]
         }
     },
     "dark-pudding": {
@@ -969,6 +1863,18 @@
         "price": {
             "general": 1600,
             "marketplace": 27200
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +3",
+                "Damage Against Humans +2"
+            ]
         }
     },
     "ghormeh-sabzi": {
@@ -981,6 +1887,17 @@
         "price": {
             "general": 600,
             "marketplace": 25200
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Down Arrack Damage +5%"
+            ]
         }
     },
     "ham-sandwich": {
@@ -993,6 +1910,18 @@
         "price": {
             "general": 1322,
             "marketplace": 48600
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +3",
+                "All Accuracy +8"
+            ]
         }
     },
     "honeycomb-cookie": {
@@ -1005,6 +1934,17 @@
         "price": {
             "general": 474,
             "marketplace": 18700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +50 LT"
+            ]
         }
     },
     "hunters-salad": {
@@ -1017,6 +1957,17 @@
         "price": {
             "general": 600,
             "marketplace": 31200
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "Matchlock Reload Speed +7%"
+            ]
         }
     },
     "king-of-jungle-hamburg": {
@@ -1029,6 +1980,18 @@
         "price": {
             "general": 1619,
             "marketplace": 62500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 6600,
+            "cooldown": 1800,
+            "extra": [
+                "Ignore All Resistance +3%",
+                "Critical Hit Damage +5%"
+            ]
         }
     },
     "lean-meat-salad": {
@@ -1041,6 +2004,18 @@
         "price": {
             "general": 791,
             "marketplace": 29900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All Damage Reduction +3",
+                "HP Recovery +5"
+            ]
         }
     },
     "meat-croquette": {
@@ -1053,6 +2028,17 @@
         "price": {
             "general": 726,
             "marketplace": 47000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Combat XP +5%"
+            ]
         }
     },
     "meat-sandwich": {
@@ -1065,6 +2051,18 @@
         "price": {
             "general": 913,
             "marketplace": 34900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Movement Speed +1",
+                "Max Stamina +200"
+            ]
         }
     },
     "milk-tea": {
@@ -1077,6 +2075,18 @@
         "price": {
             "general": 1146,
             "marketplace": 22000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Combat XP +8%",
+                "HP Recovery +5"
+            ]
         }
     },
     "savory-steak": {
@@ -1089,6 +2099,18 @@
         "price": {
             "general": 614,
             "marketplace": 49400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 2700,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +240",
+                "All Life Skill Mastery +10"
+            ]
         }
     },
     "skawered-llama-cheese-melt": {
@@ -1101,6 +2123,17 @@
         "price": {
             "general": 900,
             "marketplace": 39800
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +100 LT"
+            ]
         }
     },
     "stir-fried-bracken": {
@@ -1113,6 +2146,17 @@
         "price": {
             "general": 800,
             "marketplace": 27600
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Knowledge Gain Chance +5%"
+            ]
         }
     },
     "stir-fried-bracken-and-meat": {
@@ -1125,6 +2169,18 @@
         "price": {
             "general": 800,
             "marketplace": 52000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +240",
+                "All Resistance +2%"
+            ]
         }
     },
     "eilton-sandwich": {
@@ -1137,6 +2193,18 @@
         "price": {
             "general": 1380,
             "marketplace": 29600
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +240",
+                "Auto-fishing Time -7%"
+            ]
         }
     },
     "balenos-meal": {
@@ -1149,6 +2217,20 @@
         "price": {
             "general": 4620,
             "marketplace": 24200
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +4000",
+                "Movement Speed +2",
+                "Fishing Speed +2",
+                "Gathering Speed +2"
+            ]
         }
     },
     "butter-roasted-lobster": {
@@ -1161,6 +2243,17 @@
         "price": {
             "general": 2250,
             "marketplace": 52500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "Knockdown/Bound Resistance +10%"
+            ]
         }
     },
     "calpheon-meal": {
@@ -1173,6 +2266,19 @@
         "price": {
             "general": 5596,
             "marketplace": 39900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 1800,
+            "cooldown": 1800,
+            "extra": [
+                "All Damage Reduction +1",
+                "Max HP +100",
+                "HP Recovery +5"
+            ]
         }
     },
     "hard-boiled-shellfish": {
@@ -1185,6 +2291,18 @@
         "price": {
             "general": 2450,
             "marketplace": 81500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3000,
+            "cooldown": 1800,
+            "extra": [
+                "Gathering Speed +2",
+                "Underwater Breathing +10 sec"
+            ]
         }
     },
     "kamasylvia-meal": {
@@ -1197,6 +2315,19 @@
         "price": {
             "general": 4275,
             "marketplace": 31100
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3000,
+            "cooldown": 1800,
+            "extra": [
+                "Max HP +150",
+                "Max Stamina +200",
+                "Back Attack Damage +5%"
+            ]
         }
     },
     "khalks-femented-wine": {
@@ -1209,6 +2340,20 @@
         "price": {
             "general": 4500,
             "marketplace": 137000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 3600,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +7",
+                "Movement Speed +1",
+                "HP Recovery +10",
+                "Matchlock Reload Speed +7%"
+            ]
         }
     },
     "knight-combat-rations": {
@@ -1221,6 +2366,19 @@
         "price": {
             "general": 7965,
             "marketplace": 46400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 7200,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +5",
+                "Extra AP Against Humans +5",
+                "All Damage Reduction +5"
+            ]
         }
     },
     "margoria-seafood-meal": {
@@ -1233,6 +2391,19 @@
         "price": {
             "general": 7850,
             "marketplace": 155000
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Weight Limit +50 LT",
+                "Movement Speed +2",
+                "Max HP +100"
+            ]
         }
     },
     "mediah-meal": {
@@ -1245,6 +2416,19 @@
         "price": {
             "general": 7842,
             "marketplace": 39900
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +5",
+                "Attack Speed +1",
+                "Casting Speed +1"
+            ]
         }
     },
     "odyllita-meal": {
@@ -1257,6 +2441,19 @@
         "price": {
             "general": 4275,
             "marketplace": 39400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All Damage Reduction +5",
+                "Special Attack Evasion +5%",
+                "Damage from Monsters -5%"
+            ]
         }
     },
     "serendia-meal": {
@@ -1269,6 +2466,19 @@
         "price": {
             "general": 5963,
             "marketplace": 29700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "All AP +5",
+                "All Accuracy +10",
+                "Critical Hit +1"
+            ]
         }
     },
     "special-arehaza-meal": {
@@ -1281,6 +2491,20 @@
         "price": {
             "general": 3081,
             "marketplace": 30700
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Hetstroke / Hypothermia Resistance +10%",
+                "Auto-fishing Time -5%",
+                "Movement Speed +2",
+                "Critical Hit +1"
+            ]
         }
     },
     "special-drieghanese-meal": {
@@ -1293,6 +2517,20 @@
         "price": {
             "general": 8070,
             "marketplace": 52500
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Knowledge Gain Chance +5%",
+                "Chance to Gain Higher Grade Knowledge +2%",
+                "Down Arrack Damage +5%",
+                "Weight Limit +100 LT"
+            ]
         }
     },
     "valencia-meal": {
@@ -1305,6 +2543,20 @@
         "price": {
             "general": 4275,
             "marketplace": 32400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 6600,
+            "cooldown": 1800,
+            "extra": [
+                "Ignore All Resistance +4%",
+                "All Resistance +4%",
+                "All Evasion +10",
+                "Damage from Monsters -6%"
+            ]
         }
     },
     "special-eilton-specialty-meal": {
@@ -1317,6 +2569,20 @@
         "price": {
             "general": 1093,
             "marketplace": 26800
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +4000",
+                "Breath EXP +10%",
+                "Movement Speed +2",
+                "Max Stamina +100"
+            ]
         }
     },
     "balacs-lunchbox": {
@@ -1329,6 +2595,20 @@
         "price": {
             "general": 1551,
             "marketplace": 37200
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +4000",
+                "Fishing EXP +10%",
+                "Fishing Speed +2",
+                "Auto-fishing Time -7%"
+            ]
         }
     },
     "eilton-meal": {
@@ -1341,6 +2621,20 @@
         "price": {
             "general": 5500,
             "marketplace": 48400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.3
+        },
+        "effect": {
+            "duration": 5400,
+            "cooldown": 1800,
+            "extra": [
+                "Supplied Rations on Ship +4000",
+                "Processing EXP +10%",
+                "Processing Success Rate +10%",
+                "Weight Limit +100 LT"
+            ]
         }
     }
 }
