@@ -1,0 +1,20 @@
+.search-result-item {
+    border: 3px ridge white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.search-result-item h3 {
+    text-align: center;
+    margin: 0;
+    padding: 6px;
+    border-bottom: 1px solid white;
+}
+
+.search-result-item-content {
+    padding: 6px;
+}
+
+.general-description span {
+    white-space: nowrap;
+}

@@ -1,0 +1,898 @@
+{
+    "aloe-cookie": {
+        "id": "aloe-cookie",
+        "name": "Aloe Cookie",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "beer": {
+        "id": "beer",
+        "name": "Beer",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "boiled-bird-eggs": {
+        "id": "boiled-bird-eggs",
+        "name": "Boiled Bird Eggs",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "exotic-herbal-wine": {
+        "id": "exotic-herbal-wine",
+        "name": "Exotic Herbal Wine",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "fig-pie": {
+        "id": "fig-pie",
+        "name": "Fig Pie",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fried-fish": {
+        "id": "fried-fish",
+        "name": "Fried Fish",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "fried-vegetables": {
+        "id": "fried-vegetables",
+        "name": "Fried Vegetables",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "fruit-juice": {
+        "id": "fruit-juice",
+        "name": "Fruit Juice",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "grain-soup": {
+        "id": "grain-soup",
+        "name": "Grain Soup",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "high-quality-carrot-juice": {
+        "id": "high-quality-carrot-juice",
+        "name": "High-Quality Carrot Juice",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "seafood-mushroom-salad": {
+        "id": "seafood-mushroom-salad",
+        "name": "Seafood Mushroom Salad",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "smoked-hish-steak": {
+        "id": "smoked-fish-steak",
+        "name": "Smoked Fish Steak",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "special-carrot-juice": {
+        "id": "special-carrot-juice",
+        "name": "Special Carrot Juice",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "steamed-fish": {
+        "id": "steamed-fish",
+        "name": "Steamed Fish",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "teff-bread": {
+        "id": "teff-bread",
+        "name": "Teff Bread",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "five-grain-chicken-porridge": {
+        "id": "five-grain-chicken-porridge",
+        "name": "Five-Grain Chicken Porridge",
+        "skill": {
+            "name": "COOKING",
+            "level": 25
+        }
+    },
+    "citron-juice": {
+        "id": "citron-juice",
+        "name": "Citron Juice",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "citron-candy": {
+        "id": "citron-candy",
+        "name": "Citron Candy",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "date-palm-wine": {
+        "id": "date-palm-wine",
+        "name": "Date Palm Wine",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "fish-fillet-chips": {
+        "id": "fish-fillet-chips",
+        "name": "Fish Fillet Chips",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fish-soup": {
+        "id": "fish-soup",
+        "name": "Fish Soup",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fruit-and-vegetable-salad": {
+        "id": "fruit-and-vegetable-salad",
+        "name": "Fruit And Vegetable Salad",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fruit-wine": {
+        "id": "fruit-wine",
+        "name": "Fruit Wine",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "grilled-bird-meat": {
+        "id": "grilled-bird-meat",
+        "name": "Grilled Bird Meat",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "honey-wine": {
+        "id": "honey-wine",
+        "name": "Honey Wine",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "omelet": {
+        "id": "omelet",
+        "name": "Omelet",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "pickled-fish": {
+        "id": "pickled-fish",
+        "name": "Pickled Fish",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "pistachio-fried-rice": {
+        "id": "pistachio-fried-rice",
+        "name": "Pistachio Fried Rice",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "seafood-grilled-with-butter": {
+        "id": "seafood-grilled-with-butter",
+        "name": "Seafood Grilled with Butter",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "seafood-pasta": {
+        "id": "seafood-pasta",
+        "name": "Seafood Pasta",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "steamed-bird": {
+        "id": "steamed-bird",
+        "name": "Steamed Bird",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "stir-fried-vegetables": {
+        "id": "stir-fried-vegetables",
+        "name": "Strir-Fried Vegetables",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "tea-with-fine-scent": {
+        "id": "tea-with-fine-scent",
+        "name": "Tea with Fine Scent",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "delotia-juice": {
+        "id": "delotia-juice",
+        "name": "Delotia Juice",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "citron-cider": {
+        "id": "citron-cider",
+        "name": "Citron Cider",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "well-brewed-mesima-tea": {
+        "id": "well-brewed-mesima-tea",
+        "name": "Well-Brewed Medima Tea",
+        "skill": {
+            "name": "COOKING",
+            "level": 29
+        }
+    },
+    "mesima-rice-wine": {
+        "id": "mesima-rice-wine",
+        "name": "Mesima Rice Wine",
+        "skill": {
+            "name": "COOKING",
+            "level": 26
+        }
+    },
+    "aloe-yoghurt": {
+        "id": "aloe-yoghurt",
+        "name": "Aloe Yoghurt",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "couscous": {
+        "id": "couscous",
+        "name": "Couscous",
+        "skill": {
+            "name": "COOKING",
+            "level": 26
+        }
+    },
+    "desert-dumpling": {
+        "id": "desert-dumpling",
+        "name": "Desert Dumpling",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fish-fillet-salad": {
+        "id": "fish-fillet-salad",
+        "name": "Fish Fillet Salad",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "freekeh-snake-stew": {
+        "id": "freekeh-snake-stew",
+        "name": "Freekeh Snake Stew",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fried-bird": {
+        "id": "fried-bird",
+        "name": "Fried Bird",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "fruit-pie": {
+        "id": "fruit-pie",
+        "name": "Fruit Pie",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "fruit-pudding": {
+        "id": "fruit-pudding",
+        "name": "Fruit Pudding",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "meat-pie": {
+        "id": "meat-pie",
+        "name": "Meat Pie",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "meat-stew": {
+        "id": "meat-stew",
+        "name": "Meat Stew",
+        "skill": {
+            "name": "COOKING",
+            "level": 1
+        }
+    },
+    "pickled-vegetables": {
+        "id": "pickled-vegetables",
+        "name": "Pickled Vegetables",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "prawn-salad": {
+        "id": "prawn-salad",
+        "name": "Prawn Salad",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "roast-marmot": {
+        "id": "roast-marmot",
+        "name": "Roast Marmot",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "soft-bread": {
+        "id": "soft-bread",
+        "name": "Soft Bread",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "steamed-prawn": {
+        "id": "steamed-prawn",
+        "name": "Steamed Prawn",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "stir-fried-seafood": {
+        "id": "stir-fried-seafood",
+        "name": "Stir-Fried Seafood",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "pickled-citron-and-onions": {
+        "id": "pickled-citron-and-onions",
+        "name": "Pickled Citron and Onions",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "chanterelle-risotto": {
+        "id": "chanterelle-risotto",
+        "name": "Chanterelle Risotto",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "borscht": {
+        "id": "borscht",
+        "name": "Borscht",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "cheese-pie": {
+        "id": "cheese-pie",
+        "name": "Cheese Pie",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "coconut-cocktail": {
+        "id": "coconut-cocktail",
+        "name": "Coconut Cocktail",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "coconut-fried-fish": {
+        "id": "coconut-fried-fish",
+        "name": "Coconut Fried Fish",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "coconut-pasta": {
+        "id": "coconut-pasta",
+        "name": "Coconut Pasta",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "grilled-sausage": {
+        "id": "grilled-sausage",
+        "name": "Grilled Sausage",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "grilled-scorpion": {
+        "id": "grilled-scorpion",
+        "name": "Grilled Scorpion",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "lizard-kebab": {
+        "id": "lizard-kebab",
+        "name": "Lizard Kebab",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "meat-pasta": {
+        "id": "meat-pasta",
+        "name": "Meat Pasta",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "meat-soup": {
+        "id": "meat-soup",
+        "name": "Meat Soup",
+        "skill": {
+            "name": "COOKING",
+            "level": 6
+        }
+    },
+    "oatmeal": {
+        "id": "oatmeal",
+        "name": "Oatmeal",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "pan-fried-oyster": {
+        "id": "pan-fried-oyster",
+        "name": "Pan-Fried Oyster",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "rb-mushroom-cheese-melt": {
+        "id": "rb-mushroom-cheese-melt",
+        "name": "Rainbow Button Mushroom Cheese Melt",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "rb-mushroom-sandwich": {
+        "id": "rb-mushroom-sandwich",
+        "name": "Rainbow Button Mushroom Sandwich",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "steak": {
+        "id": "steak",
+        "name": "Steak",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "teff-sanswich": {
+        "id": "teff-sandwich",
+        "name": "Teff Sandwich",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "chanterelle-stew": {
+        "id": "chanterelle-stew",
+        "name": "Chanterelle Stew",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "fruit-sherbet": {
+        "id": "fruit-sherbet",
+        "name": "Fruit Sherbet",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "chanterelle-and-potato-stew": {
+        "id": "chanterelle-and-potato-stew",
+        "name": "Chanterelle and Potato Stew",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "mesima-chicken-soup": {
+        "id": "mesima-chicken-soup",
+        "name": "Mesima Chicken Soup",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "assorted-side-dishes": {
+        "id": "assorted-side-dishes",
+        "name": "Assorted Side Dishes",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "frank-sandwich": {
+        "id": "frank-sandwich",
+        "name": "Frank Sandwich",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "delotia-milk-tea": {
+        "id": "delotia-milk-tea",
+        "name": "Delotia Milk Tea",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "delotia-pudding": {
+        "id": "delotia-pudding",
+        "name": "Delotia Pudding",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "cheese-gratin": {
+        "id": "cheese-gratin",
+        "name": "Cheese Gratin",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "dark-pudding": {
+        "id": "dark-pudding",
+        "name": "Dark Pudding",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "ghormeh-sabzi": {
+        "id": "ghormeh-sabzi",
+        "name": "Ghormeh Sabzi",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "ham-sandwich": {
+        "id": "ham-sandwich",
+        "name": "Ham Sandwich",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "honeycomb-cookie": {
+        "id": "honeycomb-cookie",
+        "name": "Honeycomb Cookie",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "hunters-salad": {
+        "id": "hunters-salad",
+        "name": "Hunter's Salad",
+        "skill": {
+            "name": "COOKING",
+            "level": 11
+        }
+    },
+    "king-of-jungle-hamburg": {
+        "id": "king-of-jungle-hamburg",
+        "name": "King of Jungle Hamburg",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "lean-meat-salad": {
+        "id": "lean-meat-salad",
+        "name": "Lean Meat Salad",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "meat-croquette": {
+        "id": "meat-croquette",
+        "name": "Meat Croquette",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "meat-sandwich": {
+        "id": "meat-sandwich",
+        "name": "Meat Sandwich",
+        "skill": {
+            "name": "COOKING",
+            "level": 16
+        }
+    },
+    "milk-tea": {
+        "id": "milk-tea",
+        "name": "Milk Tea",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "savory-steak": {
+        "id": "savory-steak",
+        "name": "Savory Steak",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "skawered-llama-cheese-melt": {
+        "id": "skewered-llama-cheese-melt",
+        "name": "Skewered Llama Cheese Melt",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "stir-fried-bracken": {
+        "id": "stir-fried-bracken",
+        "name": "Stir-Fried Bracken",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "stir-fried-bracken-and-meat": {
+        "id": "stir-fried-bracken-and-meat",
+        "name": "Stir-Fried Bracken and Meat",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "eilton-sandwich": {
+        "id": "eilton-sandwich",
+        "name": "Eilton Sandwich",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "balenos-meal": {
+        "id": "balenos-meal",
+        "name": "Balenos Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 26
+        }
+    },
+    "butter-roasted-lobster": {
+        "id": "butter-roasted-lobster",
+        "name": "Butter-Roasted Lobster",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "calpheon-meal": {
+        "id": "calpheon-meal",
+        "name": "Calpheon Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 26
+        }
+    },
+    "hard-boiled-shellfish": {
+        "id": "hard-boiled-shellfish",
+        "name": "Hard-Boiled Shellfish",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "kamasylvia-meal": {
+        "id": "kamasylvia-meal",
+        "name": "Kamasylvia Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 36
+        }
+    },
+    "khalks-femented-wine": {
+        "id": "khalks-femented-wine",
+        "name": "Khalk's Fermented Wine",
+        "skill": {
+            "name": "COOKING",
+            "level": 31
+        }
+    },
+    "knight-combat-rations": {
+        "id": "knight-combat-rations",
+        "name": "Knight Combat Rations",
+        "skill": {
+            "name": "COOKING",
+            "level": 26
+        }
+    },
+    "margoria-seafood-meal": {
+        "id": "margoria-seafood-meal",
+        "name": "Margoria Seafood Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "mediah-meal": {
+        "id": "mediah-meal",
+        "name": "Mediah Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 21
+        }
+    },
+    "odyllita-meal": {
+        "id": "odyllita-meal",
+        "name": "O'dyllita Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "serendia-meal": {
+        "id": "serendia-meal",
+        "name": "Serendia Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 26
+        }
+    },
+    "special-arehaza-meal": {
+        "id": "special-arehaza-meal",
+        "name": "Special Arehaza Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "special-drieghanese-meal": {
+        "id": "special-drieghanese-meal",
+        "name": "Special Drieghanese Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 51
+        }
+    },
+    "valencia-meal": {
+        "id": "valencia-meal",
+        "name": "Valencia Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 36
+        }
+    },
+    "special-eilton-specialty-meal": {
+        "id": "special-eilton-specialty-meal",
+        "name": "Special Eilton Specialty Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "balacs-lunchbox": {
+        "id": "balacs-lunchbox",
+        "name": "Balacs Lunchbox",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    },
+    "eilton-meal": {
+        "id": "eilton-meal",
+        "name": "Eilton Meal",
+        "skill": {
+            "name": "COOKING",
+            "level": 41
+        }
+    }
+}

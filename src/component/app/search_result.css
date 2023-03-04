@@ -1,0 +1,9 @@
+.result-count {
+    text-align: center;
+}
+
+.search-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
