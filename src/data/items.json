@@ -5,6 +5,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 480,
+            "marketplace": 2000
         }
     },
     "beer": {
@@ -13,6 +17,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 86,
+            "marketplace": 3000
         }
     },
     "boiled-bird-eggs": {
@@ -21,6 +29,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 86,
+            "marketplace": 3050
         }
     },
     "exotic-herbal-wine": {
@@ -29,6 +41,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 79,
+            "marketplace": 2800
         }
     },
     "fig-pie": {
@@ -37,6 +53,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 254,
+            "marketplace": 7400
         }
     },
     "fried-fish": {
@@ -45,6 +65,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 105,
+            "marketplace": 480
         }
     },
     "fried-vegetables": {
@@ -53,6 +77,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 227,
+            "marketplace": 975
         }
     },
     "fruit-juice": {
@@ -61,6 +89,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 142,
+            "marketplace": 585
         }
     },
     "grain-soup": {
@@ -69,6 +101,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 100,
+            "marketplace": 414
         }
     },
     "high-quality-carrot-juice": {
@@ -77,6 +113,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 100,
+            "marketplace": 414
         }
     },
     "seafood-mushroom-salad": {
@@ -85,14 +125,22 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 195,
+            "marketplace": 1410
         }
     },
-    "smoked-hish-steak": {
+    "smoked-fish-steak": {
         "id": "smoked-fish-steak",
         "name": "Smoked Fish Steak",
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 134,
+            "marketplace": 4510
         }
     },
     "special-carrot-juice": {
@@ -101,6 +149,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 220,
+            "marketplace": 905
         }
     },
     "steamed-fish": {
@@ -109,6 +161,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 126,
+            "marketplace": 520
         }
     },
     "teff-bread": {
@@ -117,6 +173,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 89,
+            "marketplace": 3510
         }
     },
     "five-grain-chicken-porridge": {
@@ -125,6 +185,10 @@
         "skill": {
             "name": "COOKING",
             "level": 25
+        },
+        "price": {
+            "general": 121,
+            "marketplace": 497
         }
     },
     "citron-juice": {
@@ -133,6 +197,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 88,
+            "marketplace": 2470
         }
     },
     "citron-candy": {
@@ -141,6 +209,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 86,
+            "marketplace": 3050
         }
     },
     "date-palm-wine": {
@@ -149,6 +221,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 80,
+            "marketplace": 2180
         }
     },
     "fish-fillet-chips": {
@@ -157,6 +233,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 304,
+            "marketplace": 3780
         }
     },
     "fish-soup": {
@@ -165,6 +245,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 162,
+            "marketplace": 1680
         }
     },
     "fruit-and-vegetable-salad": {
@@ -173,6 +257,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 302,
+            "marketplace": 1380
         }
     },
     "fruit-wine": {
@@ -181,6 +269,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 334,
+            "marketplace": 3090
         }
     },
     "grilled-bird-meat": {
@@ -189,6 +281,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 160,
+            "marketplace": 915
         }
     },
     "honey-wine": {
@@ -197,6 +293,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 325,
+            "marketplace": 1530
         }
     },
     "omelet": {
@@ -205,6 +305,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 202,
+            "marketplace": 2270
         }
     },
     "pickled-fish": {
@@ -213,6 +317,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 154,
+            "marketplace": 715
         }
     },
     "pistachio-fried-rice": {
@@ -221,6 +329,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 334,
+            "marketplace": 1530
         }
     },
     "seafood-grilled-with-butter": {
@@ -229,6 +341,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 242,
+            "marketplace": 1440
         }
     },
     "seafood-pasta": {
@@ -237,6 +353,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 374,
+            "marketplace": 2640
         }
     },
     "steamed-bird": {
@@ -245,6 +365,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 615,
+            "marketplace": 2150
         }
     },
     "stir-fried-vegetables": {
@@ -253,6 +377,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 214,
+            "marketplace": 7650
         }
     },
     "tea-with-fine-scent": {
@@ -261,6 +389,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 507,
+            "marketplace": 9150
         }
     },
     "delotia-juice": {
@@ -269,6 +401,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 380,
+            "marketplace": 9250
         }
     },
     "citron-cider": {
@@ -277,6 +413,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 105,
+            "marketplace": 2940
         }
     },
     "well-brewed-mesima-tea": {
@@ -285,6 +425,10 @@
         "skill": {
             "name": "COOKING",
             "level": 29
+        },
+        "price": {
+            "general": 161,
+            "marketplace": 520
         }
     },
     "mesima-rice-wine": {
@@ -293,14 +437,22 @@
         "skill": {
             "name": "COOKING",
             "level": 26
+        },
+        "price": {
+            "general": 220,
+            "marketplace": 6150
         }
     },
-    "aloe-yoghurt": {
-        "id": "aloe-yoghurt",
-        "name": "Aloe Yoghurt",
+    "aloe-yogurt": {
+        "id": "aloe-yogurt",
+        "name": "Aloe Yogurt",
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 218,
+            "marketplace": 4350
         }
     },
     "couscous": {
@@ -309,6 +461,10 @@
         "skill": {
             "name": "COOKING",
             "level": 26
+        },
+        "price": {
+            "general": 1006,
+            "marketplace": 27300
         }
     },
     "desert-dumpling": {
@@ -317,6 +473,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 629,
+            "marketplace": 3940
         }
     },
     "fish-fillet-salad": {
@@ -325,6 +485,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 320,
+            "marketplace": 12700
         }
     },
     "freekeh-snake-stew": {
@@ -333,6 +497,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 630,
+            "marketplace": 39900
         }
     },
     "fried-bird": {
@@ -341,6 +509,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 719,
+            "marketplace": 13900
         }
     },
     "fruit-pie": {
@@ -349,6 +521,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 357,
+            "marketplace": 3610
         }
     },
     "fruit-pudding": {
@@ -357,6 +533,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 267,
+            "marketplace": 5050
         }
     },
     "meat-pie": {
@@ -365,6 +545,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 345,
+            "marketplace": 22000
         }
     },
     "meat-stew": {
@@ -373,6 +557,10 @@
         "skill": {
             "name": "COOKING",
             "level": 1
+        },
+        "price": {
+            "general": 374,
+            "marketplace": 8700
         }
     },
     "pickled-vegetables": {
@@ -381,6 +569,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 422,
+            "marketplace": 2030
         }
     },
     "prawn-salad": {
@@ -389,6 +581,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 2025,
+            "marketplace": 7700
         }
     },
     "roast-marmot": {
@@ -397,6 +593,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 800,
+            "marketplace": 22800
         }
     },
     "soft-bread": {
@@ -405,6 +605,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 186,
+            "marketplace": 18700
         }
     },
     "steamed-prawn": {
@@ -413,6 +617,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 1800,
+            "marketplace": 22600
         }
     },
     "stir-fried-seafood": {
@@ -421,6 +629,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 394,
+            "marketplace": 2670
         }
     },
     "pickled-citron-and-onions": {
@@ -429,6 +641,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 368,
+            "marketplace": 5200
         }
     },
     "chanterelle-risotto": {
@@ -437,6 +653,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 405,
+            "marketplace": 11300
         }
     },
     "borscht": {
@@ -445,6 +665,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 387,
+            "marketplace": 15300
         }
     },
     "cheese-pie": {
@@ -453,6 +677,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 458,
+            "marketplace": 14000
         }
     },
     "coconut-cocktail": {
@@ -461,6 +689,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 532,
+            "marketplace": 3680
         }
     },
     "coconut-fried-fish": {
@@ -469,6 +701,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1017,
+            "marketplace": 8350
         }
     },
     "coconut-pasta": {
@@ -477,6 +713,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1085,
+            "marketplace": 19700
         }
     },
     "grilled-sausage": {
@@ -485,6 +725,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 480,
+            "marketplace": 31300
         }
     },
     "grilled-scorpion": {
@@ -493,6 +737,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 634,
+            "marketplace": 38500
         }
     },
     "lizard-kebab": {
@@ -501,6 +749,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 830,
+            "marketplace": 22700
         }
     },
     "meat-pasta": {
@@ -509,6 +761,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 501,
+            "marketplace": 31400
         }
     },
     "meat-soup": {
@@ -517,6 +773,10 @@
         "skill": {
             "name": "COOKING",
             "level": 6
+        },
+        "price": {
+            "general": 432,
+            "marketplace": 11000
         }
     },
     "oatmeal": {
@@ -525,6 +785,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 412,
+            "marketplace": 16300
         }
     },
     "pan-fried-oyster": {
@@ -533,6 +797,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 1575,
+            "marketplace": 33300
         }
     },
     "rb-mushroom-cheese-melt": {
@@ -541,6 +809,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1240,
+            "marketplace": 33900
         }
     },
     "rb-mushroom-sandwich": {
@@ -549,6 +821,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1587,
+            "marketplace": 33500
         }
     },
     "steak": {
@@ -557,6 +833,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 726,
+            "marketplace": 30500
         }
     },
     "teff-sanswich": {
@@ -565,6 +845,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1587,
+            "marketplace": 43100
         }
     },
     "chanterelle-stew": {
@@ -573,6 +857,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 496,
+            "marketplace": 19600
         }
     },
     "fruit-sherbet": {
@@ -581,6 +869,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 653,
+            "marketplace": 18300
         }
     },
     "chanterelle-and-potato-stew": {
@@ -589,6 +881,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 845,
+            "marketplace": 15100
         }
     },
     "mesima-chicken-soup": {
@@ -597,6 +893,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 966,
+            "marketplace": 21900
         }
     },
     "assorted-side-dishes": {
@@ -605,6 +905,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 1015,
+            "marketplace": 22600
         }
     },
     "frank-sandwich": {
@@ -613,6 +917,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 800,
+            "marketplace": 13400
         }
     },
     "delotia-milk-tea": {
@@ -621,6 +929,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 325,
+            "marketplace": 16500
         }
     },
     "delotia-pudding": {
@@ -629,6 +941,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 800,
+            "marketplace": 31400
         }
     },
     "cheese-gratin": {
@@ -637,6 +953,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 848,
+            "marketplace": 28100
         }
     },
     "dark-pudding": {
@@ -645,6 +965,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 1600,
+            "marketplace": 27200
         }
     },
     "ghormeh-sabzi": {
@@ -653,6 +977,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 600,
+            "marketplace": 25200
         }
     },
     "ham-sandwich": {
@@ -661,6 +989,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 1322,
+            "marketplace": 48600
         }
     },
     "honeycomb-cookie": {
@@ -669,6 +1001,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 474,
+            "marketplace": 18700
         }
     },
     "hunters-salad": {
@@ -677,6 +1013,10 @@
         "skill": {
             "name": "COOKING",
             "level": 11
+        },
+        "price": {
+            "general": 600,
+            "marketplace": 31200
         }
     },
     "king-of-jungle-hamburg": {
@@ -685,6 +1025,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1619,
+            "marketplace": 62500
         }
     },
     "lean-meat-salad": {
@@ -693,6 +1037,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 791,
+            "marketplace": 29900
         }
     },
     "meat-croquette": {
@@ -701,6 +1049,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 726,
+            "marketplace": 47000
         }
     },
     "meat-sandwich": {
@@ -709,6 +1061,10 @@
         "skill": {
             "name": "COOKING",
             "level": 16
+        },
+        "price": {
+            "general": 913,
+            "marketplace": 34900
         }
     },
     "milk-tea": {
@@ -717,6 +1073,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 1146,
+            "marketplace": 22000
         }
     },
     "savory-steak": {
@@ -725,6 +1085,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 614,
+            "marketplace": 49400
         }
     },
     "skawered-llama-cheese-melt": {
@@ -733,6 +1097,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 900,
+            "marketplace": 39800
         }
     },
     "stir-fried-bracken": {
@@ -741,6 +1109,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 800,
+            "marketplace": 27600
         }
     },
     "stir-fried-bracken-and-meat": {
@@ -749,6 +1121,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 800,
+            "marketplace": 52000
         }
     },
     "eilton-sandwich": {
@@ -757,6 +1133,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 1380,
+            "marketplace": 29600
         }
     },
     "balenos-meal": {
@@ -765,6 +1145,10 @@
         "skill": {
             "name": "COOKING",
             "level": 26
+        },
+        "price": {
+            "general": 4620,
+            "marketplace": 24200
         }
     },
     "butter-roasted-lobster": {
@@ -773,6 +1157,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 2250,
+            "marketplace": 52500
         }
     },
     "calpheon-meal": {
@@ -781,6 +1169,10 @@
         "skill": {
             "name": "COOKING",
             "level": 26
+        },
+        "price": {
+            "general": 5596,
+            "marketplace": 39900
         }
     },
     "hard-boiled-shellfish": {
@@ -789,6 +1181,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 2450,
+            "marketplace": 81500
         }
     },
     "kamasylvia-meal": {
@@ -797,6 +1193,10 @@
         "skill": {
             "name": "COOKING",
             "level": 36
+        },
+        "price": {
+            "general": 4275,
+            "marketplace": 31100
         }
     },
     "khalks-femented-wine": {
@@ -805,6 +1205,10 @@
         "skill": {
             "name": "COOKING",
             "level": 31
+        },
+        "price": {
+            "general": 4500,
+            "marketplace": 137000
         }
     },
     "knight-combat-rations": {
@@ -813,6 +1217,10 @@
         "skill": {
             "name": "COOKING",
             "level": 26
+        },
+        "price": {
+            "general": 7965,
+            "marketplace": 46400
         }
     },
     "margoria-seafood-meal": {
@@ -821,6 +1229,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 7850,
+            "marketplace": 155000
         }
     },
     "mediah-meal": {
@@ -829,6 +1241,10 @@
         "skill": {
             "name": "COOKING",
             "level": 21
+        },
+        "price": {
+            "general": 7842,
+            "marketplace": 39900
         }
     },
     "odyllita-meal": {
@@ -837,6 +1253,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 4275,
+            "marketplace": 39400
         }
     },
     "serendia-meal": {
@@ -845,6 +1265,10 @@
         "skill": {
             "name": "COOKING",
             "level": 26
+        },
+        "price": {
+            "general": 5963,
+            "marketplace": 29700
         }
     },
     "special-arehaza-meal": {
@@ -853,6 +1277,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 3081,
+            "marketplace": 30700
         }
     },
     "special-drieghanese-meal": {
@@ -861,6 +1289,10 @@
         "skill": {
             "name": "COOKING",
             "level": 51
+        },
+        "price": {
+            "general": 8070,
+            "marketplace": 52500
         }
     },
     "valencia-meal": {
@@ -869,6 +1301,10 @@
         "skill": {
             "name": "COOKING",
             "level": 36
+        },
+        "price": {
+            "general": 4275,
+            "marketplace": 32400
         }
     },
     "special-eilton-specialty-meal": {
@@ -877,6 +1313,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 1093,
+            "marketplace": 26800
         }
     },
     "balacs-lunchbox": {
@@ -885,6 +1325,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 1551,
+            "marketplace": 37200
         }
     },
     "eilton-meal": {
@@ -893,6 +1337,10 @@
         "skill": {
             "name": "COOKING",
             "level": 41
+        },
+        "price": {
+            "general": 5500,
+            "marketplace": 48400
         }
     }
 }

@@ -15,8 +15,8 @@ const SearchResult = ({ items, searchText }) => {
     }
 
     const matchedItems = Object.values(items)
-        .filter((item) => matches(item)).
-        sort((a, b) => a.name.localeCompare(b.name));
+        .filter((item) => matches(item))
+        .sort((a, b) => a.name.localeCompare(b.name));
 
     return (
         <div>
