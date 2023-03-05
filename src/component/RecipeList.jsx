@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./app/app.css";
-import Header from "./app/Header";
-import SearchInput from "./app/SearchInput";
+import "./recipe_list/recipe_list.css";
+import Header from "./recipe_list/Header";
+import SearchInput from "./recipe_list/SearchInput";
 import itemData from "../data/items.json";
-import SearchResult from "./app/SearchResult";
+import SearchResult from "./recipe_list/SearchResult";
 
-const App = () => {
+const RecipeList = () => {
   const [query, setQuery] = useState([]);
   const [items, setItems] = useState(itemData);
 
@@ -23,4 +23,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default RecipeList;
