@@ -1,8 +1,92 @@
 {
+    "aloe": {
+        "id": "aloe",
+        "name": "Aloe",
+        "source": {
+            "name": "GATHERING",
+            "level": 1
+        },
+        "price": {
+            "general": 40,
+            "marketplace": 3160
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.1
+        }
+    },
+    "dough": {
+        "id": "dough",
+        "name": "Dough",
+        "source": {
+            "name": "PROCESSING_SHAKING",
+            "level": 1
+        },
+        "price": {
+            "general": 13,
+            "marketplace": 2400
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.1
+        }
+    },
+    "cooking-honey": {
+        "id": "honey",
+        "name": "Cooking Honey",
+        "source": {
+            "name": "PROCESSING_GRINDING",
+            "level": 1
+        },
+        "price": {
+            "general": 100,
+            "marketplace": 1660
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.1
+        },
+        "ingredients": [
+            {
+                "id": "wild-beehive",
+                "amount": 3
+            }
+        ]
+    },
+    "wild-beehive": {
+        "id": "wild-beehive",
+        "name": "Wild Beehive",
+        "source": {
+            "name": "HUNTING",
+            "level": 1
+        },
+        "price": {
+            "general": 60,
+            "marketplace": 23300
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.1
+        }
+    },
+    "sugar": {
+        "id": "sugar",
+        "name": "Sugar",
+        "source": {
+            "name": "SHOP",
+            "vendor": "GENERAL_GOODS"
+        },
+        "price": {
+            "general": 20
+        },
+        "weight": {
+            "inventory": 0.01
+        }
+    },
     "aloe-cookie": {
         "id": "aloe-cookie",
         "name": "Aloe Cookie",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -20,12 +104,30 @@
             "extra": [
                 "All Accuracy +4"
             ]
-        }
+        },
+        "ingredients": [
+            {
+                "id": "aloe",
+                "amount": 5
+            },
+            {
+                "id": "dough",
+                "amount": 7
+            },
+            {
+                "id": "cooking-honey",
+                "amount": 3
+            },
+            {
+                "id": "sugar",
+                "amount": 4
+            }
+        ]
     },
     "beer": {
         "id": "beer",
         "name": "Beer",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -46,7 +148,7 @@
     "boiled-bird-eggs": {
         "id": "boiled-bird-eggs",
         "name": "Boiled Bird Eggs",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -69,7 +171,7 @@
     "exotic-herbal-wine": {
         "id": "exotic-herbal-wine",
         "name": "Exotic Herbal Wine",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -92,7 +194,7 @@
     "fig-pie": {
         "id": "fig-pie",
         "name": "Fig Pie",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -115,7 +217,7 @@
     "fried-fish": {
         "id": "fried-fish",
         "name": "Fried Fish",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -138,7 +240,7 @@
     "fried-vegetables": {
         "id": "fried-vegetables",
         "name": "Fried Vegetables",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -161,7 +263,7 @@
     "fruit-juice": {
         "id": "fruit-juice",
         "name": "Fruit Juice",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -184,7 +286,7 @@
     "grain-soup": {
         "id": "grain-soup",
         "name": "Grain Soup",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -207,7 +309,7 @@
     "high-quality-carrot-juice": {
         "id": "high-quality-carrot-juice",
         "name": "High-Quality Carrot Juice",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -230,7 +332,7 @@
     "seafood-mushroom-salad": {
         "id": "seafood-mushroom-salad",
         "name": "Seafood Mushroom Salad",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -253,7 +355,7 @@
     "smoked-fish-steak": {
         "id": "smoked-fish-steak",
         "name": "Smoked Fish Steak",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -276,7 +378,7 @@
     "special-carrot-juice": {
         "id": "special-carrot-juice",
         "name": "Special Carrot Juice",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -298,7 +400,7 @@
     "steamed-fish": {
         "id": "steamed-fish",
         "name": "Steamed Fish",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -321,7 +423,7 @@
     "teff-bread": {
         "id": "teff-bread",
         "name": "Teff Bread",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -344,7 +446,7 @@
     "five-grain-chicken-porridge": {
         "id": "five-grain-chicken-porridge",
         "name": "Five-Grain Chicken Porridge",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 25
         },
@@ -367,7 +469,7 @@
     "citron-juice": {
         "id": "citron-juice",
         "name": "Citron Juice",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -391,7 +493,7 @@
     "citron-candy": {
         "id": "citron-candy",
         "name": "Citron Candy",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -415,7 +517,7 @@
     "date-palm-wine": {
         "id": "date-palm-wine",
         "name": "Date Palm Wine",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -438,7 +540,7 @@
     "fish-fillet-chips": {
         "id": "fish-fillet-chips",
         "name": "Fish Fillet Chips",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -459,7 +561,7 @@
     "fish-soup": {
         "id": "fish-soup",
         "name": "Fish Soup",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -482,7 +584,7 @@
     "fruit-and-vegetable-salad": {
         "id": "fruit-and-vegetable-salad",
         "name": "Fruit And Vegetable Salad",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -505,7 +607,7 @@
     "fruit-wine": {
         "id": "fruit-wine",
         "name": "Fruit Wine",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -528,7 +630,7 @@
     "grilled-bird-meat": {
         "id": "grilled-bird-meat",
         "name": "Grilled Bird Meat",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -549,7 +651,7 @@
     "honey-wine": {
         "id": "honey-wine",
         "name": "Honey Wine",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -572,7 +674,7 @@
     "omelet": {
         "id": "omelet",
         "name": "Omelet",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -595,7 +697,7 @@
     "pickled-fish": {
         "id": "pickled-fish",
         "name": "Pickled Fish",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -618,7 +720,7 @@
     "pistachio-fried-rice": {
         "id": "pistachio-fried-rice",
         "name": "Pistachio Fried Rice",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -641,7 +743,7 @@
     "seafood-grilled-with-butter": {
         "id": "seafood-grilled-with-butter",
         "name": "Seafood Grilled with Butter",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -664,7 +766,7 @@
     "seafood-pasta": {
         "id": "seafood-pasta",
         "name": "Seafood Pasta",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -687,7 +789,7 @@
     "steamed-bird": {
         "id": "steamed-bird",
         "name": "Steamed Bird",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -710,7 +812,7 @@
     "stir-fried-vegetables": {
         "id": "stir-fried-vegetables",
         "name": "Strir-Fried Vegetables",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -733,7 +835,7 @@
     "tea-with-fine-scent": {
         "id": "tea-with-fine-scent",
         "name": "Tea with Fine Scent",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -756,7 +858,7 @@
     "delotia-juice": {
         "id": "delotia-juice",
         "name": "Delotia Juice",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -780,7 +882,7 @@
     "citron-cider": {
         "id": "citron-cider",
         "name": "Citron Cider",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -804,7 +906,7 @@
     "well-brewed-mesima-tea": {
         "id": "well-brewed-mesima-tea",
         "name": "Well-Brewed Medima Tea",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 29
         },
@@ -828,7 +930,7 @@
     "mesima-rice-wine": {
         "id": "mesima-rice-wine",
         "name": "Mesima Rice Wine",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 26
         },
@@ -852,7 +954,7 @@
     "aloe-yogurt": {
         "id": "aloe-yogurt",
         "name": "Aloe Yogurt",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -875,7 +977,7 @@
     "couscous": {
         "id": "couscous",
         "name": "Couscous",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 26
         },
@@ -898,7 +1000,7 @@
     "desert-dumpling": {
         "id": "desert-dumpling",
         "name": "Desert Dumpling",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -922,7 +1024,7 @@
     "fish-fillet-salad": {
         "id": "fish-fillet-salad",
         "name": "Fish Fillet Salad",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -945,7 +1047,7 @@
     "freekeh-snake-stew": {
         "id": "freekeh-snake-stew",
         "name": "Freekeh Snake Stew",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -966,7 +1068,7 @@
     "fried-bird": {
         "id": "fried-bird",
         "name": "Fried Bird",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -989,7 +1091,7 @@
     "fruit-pie": {
         "id": "fruit-pie",
         "name": "Fruit Pie",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1013,7 +1115,7 @@
     "fruit-pudding": {
         "id": "fruit-pudding",
         "name": "Fruit Pudding",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -1036,7 +1138,7 @@
     "meat-pie": {
         "id": "meat-pie",
         "name": "Meat Pie",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1059,7 +1161,7 @@
     "meat-stew": {
         "id": "meat-stew",
         "name": "Meat Stew",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 1
         },
@@ -1082,7 +1184,7 @@
     "pickled-vegetables": {
         "id": "pickled-vegetables",
         "name": "Pickled Vegetables",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1105,7 +1207,7 @@
     "prawn-salad": {
         "id": "prawn-salad",
         "name": "Prawn Salad",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1129,7 +1231,7 @@
     "roast-marmot": {
         "id": "roast-marmot",
         "name": "Roast Marmot",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1152,7 +1254,7 @@
     "soft-bread": {
         "id": "soft-bread",
         "name": "Soft Bread",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -1175,7 +1277,7 @@
     "steamed-prawn": {
         "id": "steamed-prawn",
         "name": "Steamed Prawn",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1199,7 +1301,7 @@
     "stir-fried-seafood": {
         "id": "stir-fried-seafood",
         "name": "Stir-Fried Seafood",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -1222,7 +1324,7 @@
     "pickled-citron-and-onions": {
         "id": "pickled-citron-and-onions",
         "name": "Pickled Citron and Onions",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1245,7 +1347,7 @@
     "chanterelle-risotto": {
         "id": "chanterelle-risotto",
         "name": "Chanterelle Risotto",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1269,7 +1371,7 @@
     "borscht": {
         "id": "borscht",
         "name": "Borscht",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1292,7 +1394,7 @@
     "cheese-pie": {
         "id": "cheese-pie",
         "name": "Cheese Pie",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1313,7 +1415,7 @@
     "coconut-cocktail": {
         "id": "coconut-cocktail",
         "name": "Coconut Cocktail",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1336,7 +1438,7 @@
     "coconut-fried-fish": {
         "id": "coconut-fried-fish",
         "name": "Coconut Fried Fish",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1360,7 +1462,7 @@
     "coconut-pasta": {
         "id": "coconut-pasta",
         "name": "Coconut Pasta",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1383,7 +1485,7 @@
     "grilled-sausage": {
         "id": "grilled-sausage",
         "name": "Grilled Sausage",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -1406,7 +1508,7 @@
     "grilled-scorpion": {
         "id": "grilled-scorpion",
         "name": "Grilled Scorpion",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1429,7 +1531,7 @@
     "lizard-kebab": {
         "id": "lizard-kebab",
         "name": "Lizard Kebab",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -1452,7 +1554,7 @@
     "meat-pasta": {
         "id": "meat-pasta",
         "name": "Meat Pasta",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1475,7 +1577,7 @@
     "meat-soup": {
         "id": "meat-soup",
         "name": "Meat Soup",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 6
         },
@@ -1498,7 +1600,7 @@
     "oatmeal": {
         "id": "oatmeal",
         "name": "Oatmeal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1519,7 +1621,7 @@
     "pan-fried-oyster": {
         "id": "pan-fried-oyster",
         "name": "Pan-Fried Oyster",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1544,7 +1646,7 @@
     "rb-mushroom-cheese-melt": {
         "id": "rb-mushroom-cheese-melt",
         "name": "Rainbow Button Mushroom Cheese Melt",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1567,7 +1669,7 @@
     "rb-mushroom-sandwich": {
         "id": "rb-mushroom-sandwich",
         "name": "Rainbow Button Mushroom Sandwich",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1591,7 +1693,7 @@
     "steak": {
         "id": "steak",
         "name": "Steak",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1614,7 +1716,7 @@
     "teff-sanswich": {
         "id": "teff-sandwich",
         "name": "Teff Sandwich",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1637,7 +1739,7 @@
     "chanterelle-stew": {
         "id": "chanterelle-stew",
         "name": "Chanterelle Stew",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1661,7 +1763,7 @@
     "fruit-sherbet": {
         "id": "fruit-sherbet",
         "name": "Fruit Sherbet",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -1685,7 +1787,7 @@
     "chanterelle-and-potato-stew": {
         "id": "chanterelle-and-potato-stew",
         "name": "Chanterelle and Potato Stew",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1709,7 +1811,7 @@
     "mesima-chicken-soup": {
         "id": "mesima-chicken-soup",
         "name": "Mesima Chicken Soup",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -1735,7 +1837,7 @@
     "assorted-side-dishes": {
         "id": "assorted-side-dishes",
         "name": "Assorted Side Dishes",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1758,7 +1860,7 @@
     "frank-sandwich": {
         "id": "frank-sandwich",
         "name": "Frank Sandwich",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1774,7 +1876,7 @@
             "duration": 3600,
             "cooldown": 1800,
             "extra": [
-                "Skill EXP +5%",
+                "source EXP +5%",
                 "Supplied Rations on Ship +240"
             ]
         }
@@ -1782,7 +1884,7 @@
     "delotia-milk-tea": {
         "id": "delotia-milk-tea",
         "name": "Delotia Milk Tea",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1807,7 +1909,7 @@
     "delotia-pudding": {
         "id": "delotia-pudding",
         "name": "Delotia Pudding",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1832,7 +1934,7 @@
     "cheese-gratin": {
         "id": "cheese-gratin",
         "name": "Cheese Gratin",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1856,7 +1958,7 @@
     "dark-pudding": {
         "id": "dark-pudding",
         "name": "Dark Pudding",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1880,7 +1982,7 @@
     "ghormeh-sabzi": {
         "id": "ghormeh-sabzi",
         "name": "Ghormeh Sabzi",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1903,7 +2005,7 @@
     "ham-sandwich": {
         "id": "ham-sandwich",
         "name": "Ham Sandwich",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -1927,7 +2029,7 @@
     "honeycomb-cookie": {
         "id": "honeycomb-cookie",
         "name": "Honeycomb Cookie",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -1950,7 +2052,7 @@
     "hunters-salad": {
         "id": "hunters-salad",
         "name": "Hunter's Salad",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 11
         },
@@ -1973,7 +2075,7 @@
     "king-of-jungle-hamburg": {
         "id": "king-of-jungle-hamburg",
         "name": "King of Jungle Hamburg",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -1997,7 +2099,7 @@
     "lean-meat-salad": {
         "id": "lean-meat-salad",
         "name": "Lean Meat Salad",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -2021,7 +2123,7 @@
     "meat-croquette": {
         "id": "meat-croquette",
         "name": "Meat Croquette",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -2044,7 +2146,7 @@
     "meat-sandwich": {
         "id": "meat-sandwich",
         "name": "Meat Sandwich",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 16
         },
@@ -2068,7 +2170,7 @@
     "milk-tea": {
         "id": "milk-tea",
         "name": "Milk Tea",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -2092,7 +2194,7 @@
     "savory-steak": {
         "id": "savory-steak",
         "name": "Savory Steak",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -2109,14 +2211,14 @@
             "cooldown": 1800,
             "extra": [
                 "Supplied Rations on Ship +240",
-                "All Life Skill Mastery +10"
+                "All Life source Mastery +10"
             ]
         }
     },
     "skawered-llama-cheese-melt": {
         "id": "skewered-llama-cheese-melt",
         "name": "Skewered Llama Cheese Melt",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -2139,7 +2241,7 @@
     "stir-fried-bracken": {
         "id": "stir-fried-bracken",
         "name": "Stir-Fried Bracken",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -2162,7 +2264,7 @@
     "stir-fried-bracken-and-meat": {
         "id": "stir-fried-bracken-and-meat",
         "name": "Stir-Fried Bracken and Meat",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -2186,7 +2288,7 @@
     "eilton-sandwich": {
         "id": "eilton-sandwich",
         "name": "Eilton Sandwich",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -2210,7 +2312,7 @@
     "balenos-meal": {
         "id": "balenos-meal",
         "name": "Balenos Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 26
         },
@@ -2236,7 +2338,7 @@
     "butter-roasted-lobster": {
         "id": "butter-roasted-lobster",
         "name": "Butter-Roasted Lobster",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -2259,7 +2361,7 @@
     "calpheon-meal": {
         "id": "calpheon-meal",
         "name": "Calpheon Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 26
         },
@@ -2284,7 +2386,7 @@
     "hard-boiled-shellfish": {
         "id": "hard-boiled-shellfish",
         "name": "Hard-Boiled Shellfish",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -2308,7 +2410,7 @@
     "kamasylvia-meal": {
         "id": "kamasylvia-meal",
         "name": "Kamasylvia Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 36
         },
@@ -2333,7 +2435,7 @@
     "khalks-femented-wine": {
         "id": "khalks-femented-wine",
         "name": "Khalk's Fermented Wine",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 31
         },
@@ -2359,7 +2461,7 @@
     "knight-combat-rations": {
         "id": "knight-combat-rations",
         "name": "Knight Combat Rations",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 26
         },
@@ -2384,7 +2486,7 @@
     "margoria-seafood-meal": {
         "id": "margoria-seafood-meal",
         "name": "Margoria Seafood Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -2409,7 +2511,7 @@
     "mediah-meal": {
         "id": "mediah-meal",
         "name": "Mediah Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 21
         },
@@ -2434,7 +2536,7 @@
     "odyllita-meal": {
         "id": "odyllita-meal",
         "name": "O'dyllita Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -2459,7 +2561,7 @@
     "serendia-meal": {
         "id": "serendia-meal",
         "name": "Serendia Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 26
         },
@@ -2484,7 +2586,7 @@
     "special-arehaza-meal": {
         "id": "special-arehaza-meal",
         "name": "Special Arehaza Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -2510,7 +2612,7 @@
     "special-drieghanese-meal": {
         "id": "special-drieghanese-meal",
         "name": "Special Drieghanese Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 51
         },
@@ -2536,7 +2638,7 @@
     "valencia-meal": {
         "id": "valencia-meal",
         "name": "Valencia Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 36
         },
@@ -2562,7 +2664,7 @@
     "special-eilton-specialty-meal": {
         "id": "special-eilton-specialty-meal",
         "name": "Special Eilton Specialty Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -2588,7 +2690,7 @@
     "balacs-lunchbox": {
         "id": "balacs-lunchbox",
         "name": "Balacs Lunchbox",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },
@@ -2614,7 +2716,7 @@
     "eilton-meal": {
         "id": "eilton-meal",
         "name": "Eilton Meal",
-        "skill": {
+        "source": {
             "name": "COOKING",
             "level": 41
         },

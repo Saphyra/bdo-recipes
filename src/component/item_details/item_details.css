@@ -1,0 +1,24 @@
+.nav-buttons{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.back-button, .home-button{
+    font-size: 20px;
+}
+
+.home-button{
+    text-decoration: none;
+}
+
+.item-details .item-description{
+    font-size: 20px;
+}
+
+.item-details .item-description .general-description{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}

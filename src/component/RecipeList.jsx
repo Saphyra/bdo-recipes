@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import "./recipe_list/recipe_list.css";
 import Header from "./recipe_list/Header";
 import SearchInput from "./recipe_list/SearchInput";
-import itemData from "../data/items.json";
+import items from "../data/items.json";
 import SearchResult from "./recipe_list/SearchResult";
 
 const RecipeList = () => {
   const [query, setQuery] = useState([]);
-  const [items, setItems] = useState(itemData);
 
   return (
     <div>
@@ -18,7 +17,8 @@ const RecipeList = () => {
 
       <SearchResult
         items={items}
-        query={query} />
+        query={query}
+      />
     </div>
   );
 }

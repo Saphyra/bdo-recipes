@@ -16,7 +16,11 @@ const router = createBrowserRouter([
   {
     path: "item/:itemId",
     element: <ItemDetails />,
-    loader: ({ params }) => { return params.itemId }
+    loader: ({ params }) => {
+      return {
+        itemId: params.itemId
+      }
+    }
   }
 ]);
 

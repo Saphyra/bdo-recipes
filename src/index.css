@@ -10,7 +10,7 @@ header {
 input {
     border: 3px outset white;
     border-radius: 5px;
-    background-color: black;
+    background-color: transparent;
     color: white;
     padding: 6px;
     outline: none;
@@ -22,13 +22,33 @@ input:focus {
 
 a,
 a:visited,
-a:focus,
-a:active {
+a:focus {
     color: white;
-    text-decoration: none;
-    display: block;
+    border: 3px white outset;
+    border-radius: 5px;
+    padding: 3px;
 }
 
-a:hover{
-    border-color: red !important;
+a:hover {
+    border-color: red;
+}
+
+a:active {
+    border-style: inset;
+}
+
+button {
+    color: white;
+    background: transparent;
+    border: 3px outset white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+button:hover {
+    border-color: red;
+}
+
+button:active {
+    border-style: inset;
 }

@@ -1,8 +1,21 @@
-.search-container{
+.search-container {
     text-align: center;
 }
 
-    .search-input{
-        width: 50%;
-        text-align: center;
-    }
+.search-input {
+    width: 50%;
+    text-align: center;
+}
+
+a.search-result-item,
+a.search-result-item:visited,
+a.search-result-item:focus,
+a.search-result-item:active {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+a.search-result-item:hover {
+    border-color: red !important;
+}

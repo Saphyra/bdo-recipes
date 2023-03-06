@@ -1,0 +1,26 @@
+{
+    "COOKING": {
+        "translation": "Cooking",
+        "property": "level"
+    },
+    "PROCESSING_GRINDING": {
+        "translation": "Processing (Grinding)",
+        "property": "level"
+    },
+    "PROCESSING_SHAKING": {
+        "translation": "Processing (Shaking)",
+        "property": "level"
+    },
+    "GATHERING": {
+        "translation": "Gahtering",
+        "property": "level"
+    },
+    "HUNTING": {
+        "translation": "Hunting",
+        "property": "level"
+    },
+    "SHOP": {
+        "translation": "Shop",
+        "property": "vendor"
+    }
+}
