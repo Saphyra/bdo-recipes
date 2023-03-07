@@ -19,7 +19,7 @@ const ItemDetails = () => {
             <ItemDesctiption
                 item={item}
                 items={items}
-                shouldDisplayIngredients={true}
+                shouldDisplayCrafting={true}
             />
 
             <hr />

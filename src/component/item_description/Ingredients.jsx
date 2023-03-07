@@ -7,7 +7,7 @@ const Ingredients = ({ currentItemId, ingredients, items }) => {
             .map(ingredient => <Ingredient key={ingredient.id} ingredient={ingredient} items={items} />);
 
         return (
-            <ul>
+            <ul className="ingredients-list">
                 {ingredientList}
             </ul>
         );

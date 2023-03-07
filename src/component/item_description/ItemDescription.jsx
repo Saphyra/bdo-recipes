@@ -5,8 +5,9 @@ import Souce from "./Source";
 import Weight from "./Weight";
 import "./item_description.css";
 import Ingredients from "./Ingredients";
+import Crafting from "./Crafting";
 
-const ItemDescription = ({ item, items, shouldDisplayIngredients = false }) => {
+const ItemDescription = ({ item, items, shouldDisplayCrafting = false }) => {
     return (
         <div className="item-description">
             <div className="general-description">
@@ -20,7 +21,7 @@ const ItemDescription = ({ item, items, shouldDisplayIngredients = false }) => {
             <div className="effects-and-ingredients">
                 {item.effect && <Effects effect={item.effect} />}
 
-                {shouldDisplayIngredients && item.ingredients && <Ingredients currentItemId={item.id} ingredients={item.ingredients} items={items} />}
+                {shouldDisplayCrafting && item.crafting && <Crafting currentItemId={item.id} crafting={item.crafting} items={items} />}
             </div>
         </div>
     );

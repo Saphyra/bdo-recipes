@@ -29,6 +29,12 @@
         "weight": {
             "inventory": 0.1,
             "warehouse": 0.1
+        },
+        "crafting": {
+            "amount": null,
+            "ingredients": [
+                null
+            ]
         }
     },
     "cooking-honey": {
@@ -46,12 +52,15 @@
             "inventory": 0.1,
             "warehouse": 0.1
         },
-        "ingredients": [
-            {
-                "id": "wild-beehive",
-                "amount": 3
-            }
-        ]
+        "crafting": {
+            "amount": null,
+            "ingredients": [
+                {
+                    "id": "wild-beehive",
+                    "amount": 3
+                }
+            ]
+        }
     },
     "wild-beehive": {
         "id": "wild-beehive",
@@ -105,24 +114,27 @@
                 "All Accuracy +4"
             ]
         },
-        "ingredients": [
-            {
-                "id": "aloe",
-                "amount": 5
-            },
-            {
-                "id": "dough",
-                "amount": 7
-            },
-            {
-                "id": "cooking-honey",
-                "amount": 3
-            },
-            {
-                "id": "sugar",
-                "amount": 4
-            }
-        ]
+        "crafting": {
+            "amount": null,
+            "ingredients": [
+                {
+                    "id": "aloe",
+                    "amount": 5
+                },
+                {
+                    "id": "dough",
+                    "amount": 7
+                },
+                {
+                    "id": "cooking-honey",
+                    "amount": 3
+                },
+                {
+                    "id": "sugar",
+                    "amount": 4
+                }
+            ]
+        }
     },
     "beer": {
         "id": "beer",
