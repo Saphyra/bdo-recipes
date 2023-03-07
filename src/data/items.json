@@ -15,6 +15,22 @@
             "warehouse": 0.1
         }
     },
+    "crop": {
+        "id": "crop",
+        "name": "Crop",
+        "source": {
+            "name": "FARMING",
+            "level": 1
+        },
+        "price": {
+            "general": 40,
+            "marketplace": 3160
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.1
+        }
+    },
     "dough": {
         "id": "dough",
         "name": "Dough",
@@ -33,7 +49,14 @@
         "crafting": {
             "amount": null,
             "ingredients": [
-                null
+                {
+                    "id": "flour",
+                    "amount": 1
+                },
+                {
+                    "id": "mineral-water",
+                    "amount": 1
+                }
             ]
         }
     },
@@ -58,6 +81,31 @@
                 {
                     "id": "wild-beehive",
                     "amount": 3
+                }
+            ]
+        }
+    },
+    "flour": {
+        "id": "honey",
+        "name": "Flour",
+        "source": {
+            "name": "PROCESSING_GRINDING",
+            "level": 1
+        },
+        "price": {
+            "general": 14,
+            "marketplace": 2490
+        },
+        "weight": {
+            "inventory": 0.1,
+            "warehouse": 0.1
+        },
+        "crafting": {
+            "amount": null,
+            "ingredients": [
+                {
+                    "id": "crop",
+                    "amount": 1
                 }
             ]
         }
@@ -87,6 +135,20 @@
         },
         "price": {
             "general": 20
+        },
+        "weight": {
+            "inventory": 0.01
+        }
+    },
+    "mineral-water": {
+        "id": "mineral-water",
+        "name": "Mineral Water",
+        "source": {
+            "name": "SHOP",
+            "vendor": "GENERAL_GOODS"
+        },
+        "price": {
+            "general": 30
         },
         "weight": {
             "inventory": 0.01
